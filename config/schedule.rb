@@ -22,7 +22,7 @@ job_type :getBetHTML, '/lib/tasks/getHtml.rb :task'
 job_type :makeBetInfo, '/lib/tasks/generateInfo :script'
 
 every 1.minute do
-    command "runner /lib/tasks/getHtml.rb"
-    command "/lib/tasks/generateInfo"
+    command "ruby  /lib/tasks/getHtml.rb"
+    command "bash /lib/tasks/generateInfo"
 end
 
