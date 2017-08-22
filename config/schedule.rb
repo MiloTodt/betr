@@ -19,14 +19,12 @@
 
 # Learn more: http://github.com/javan/whenever
 require File.expand_path(File.dirname(__FILE__) + "/environment")
-job_type :getBetHTML, '/lib/tasks/getHtml.rb :runner'
-job_type :makeBetInfo '/lib/tasks/generateInfo :script'
 set :output, {:error => '~/logs/z.error.log', :standard => '~/logs/z.standard.log'}
 
 
-
-every 1.minute do
-    getBetHTML
-    makeBetInfo
+every 1.day do
+    command "cd " + Whenever.path() + "/lib/tasks/ && ruby getHtml.rb"
+    command  "cd " + Whenever.path() + "/lib/tasks/ && bash generateInfo"
 end
+
 
