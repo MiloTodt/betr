@@ -1,0 +1,11 @@
+name
+
+egrep -o  '"name":(.*)",' testhtml.txt | sed 's/\"name\"://' | sed 's/\"UDF\",//' | sed 's/\"//' | sed 's/\",//'
+
+numbers
+
+egrep -o  '(<b>)[+|-]([1-9][0-9][0-9])<\/b>' testhtml.txt | sed 's/<b>//' | sed 's/<\/b>//'
+
+both
+
+egrep -o '("name":(.*)",)|(<b>[+|-]([1-9][0-9][0-9])<\/b>)|(<b>[+|-]([1-9][0-9][0-9][0-9])<\/b>)|rel="[0-9]{1,4}-[0-9]{1,2}-[0-9]{1,2}' testhtml.txt |sed 's/\"UDF\",//;s/\"//;s/\",//;s/<b>//;s/<\/b>//;s/name\": //;s/\"//;/^ *$/d;s/rel=//'

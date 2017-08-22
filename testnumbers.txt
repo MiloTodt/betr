@@ -1,0 +1,172 @@
+2017-09-02 16:30:00
+Stefan Struve vs Alexander Volkov
++110
+-130
++110
+-124
++110
+-138
++100
+-130
++100
+-130
++105
+-135
++110
+-130
++100
+-130
++100
+-130
+2017-09-02 16:00:00
+Marion Reneau vs Germaine de Randamie
++285
+-345
++285
+-334
++250
+-333
++245
+-315
++265
+-380
++270
+-360
++270
+-330
++245
+-315
++245
+-315
+2017-09-02 15:30:00
+Abu Azaitar vs Siyar Bahadurzada
+2017-09-02 15:00:00
+Bryan Barberena vs Leon Edwards
++265
+-309
++250
+-333
++250
+-325
++265
+-315
+2017-09-02 14:30:00
+Bojan Velickovic vs Darren Till
+2017-09-02 14:00:00
+Felipe Silva vs Mairbek Taisumov
+2017-09-02 13:30:00
+Michel Prazeres vs Islam Makhachev
+2017-09-02 13:00:00
+Desmond Green vs Rustam Khabilov
++270
+-315
++250
+-333
++255
+-335
++265
+-315
+2017-09-02 12:30:00
+Aleksandar Rakic vs Francimar Barroso
+2017-09-02 12:00:00
+Zabit Magomedsharipov vs Nick Hein
+2017-09-02 11:30:00
+Abdul-Kerim Edilov vs Bojan Mihajlovic
+2017-09-09 23:30:00
+Ray Borg vs Demetrious Johnson
++750
+-1165
++660
+-876
++600
+-1000
++600
+-900
++600
+-1000
++550
+-900
++600
+-900
++600
+-900
++600
+-900
+2017-09-09 23:30:00
+Valentina Shevchenko vs Amanda Nunes
+-115
+-105
+-109
+-103
+-125
++100
+-116
+-114
+-110
+-120
+-120
+-110
+-115
+-105
+-116
+-114
+-116
+-114
+2017-09-09 23:30:00
+Francis Ngannou vs Junior Dos Santos
+-321
++275
+-333
++250
+-340
++260
+-315
++265
+2017-09-09 23:00:00
+Gilbert Melendez vs Jeremy Stephens
+-100
+-112
++100
+-125
+-110
+-120
+-101
+-119
+2017-09-09 23:00:00
+Rafael Dos Anjos vs Neil Magny
+-199
++175
+-188
++163
+-210
++170
+-200
++170
+2017-09-09 22:00:00
+Ketlen Vieira vs Sara McMann
+2017-09-09 21:00:00
+Wilson Reis vs Henry Cejudo
++275
+-321
++240
+-300
++260
+-340
++275
+-325
+2017-09-09 20:00:00
+Rick Glenn vs Gavin Tucker
+2017-09-09 20:00:00
+Arjan Bhullar vs Luis Henrique
+2017-09-09 20:00:00
+Ashlee Evans-Smith vs Sarah Moras
+2017-09-09 19:00:00
+Alex White vs Mitch Clarke
+2017-09-09 19:00:00
+Adriano Martins vs Kajan Johnson
+2017-12-31 23:00:00
+Brock Lesnar vs Jon Jones
++240
+-333
++265
+-350
