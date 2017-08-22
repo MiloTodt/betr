@@ -1,0 +1,8 @@
+require 'open-uri'
+
+url = 'https://www.sportsbookreview.com/betting-odds/ufc/'
+source = open(url){|f|f.read}
+
+out_file = File.new("betHtml.txt", "w+")
+out_file.puts(source)
+out_file.close
