@@ -18,8 +18,8 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
-job_type :getBetHTML, '/lib/tasks/getHtml.rb'
-job_type :makeBetInfo, '/lib/tasks/generateInfo'
+job_type :getBetHTML, '/lib/tasks/getHtml.rb :task'
+job_type :makeBetInfo, '/lib/tasks/generateInfo :script'
 
 every 1.minute do
     getBetHTML
