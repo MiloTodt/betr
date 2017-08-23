@@ -13,6 +13,7 @@ gem 'rails', '~> 5.1.2'
 gem 'pg', '~> 0.18'
 gem 'runner'
 # Use Puma as the app server
+gem 'snitcher'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

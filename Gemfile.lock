@@ -139,6 +139,7 @@ GEM
     selenium-webdriver (3.4.4)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
+    snitcher (0.4.0)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -189,6 +190,7 @@ DEPENDENCIES
   runner
   sass-rails (~> 5.0)
   selenium-webdriver
+  snitcher
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
