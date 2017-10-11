@@ -60,6 +60,7 @@ class Fight
     end
     def bestBet
         if @odds1.size() < 3
+            return
             return "Not more than three different odds yet!"
         end
         if noOdds? 
@@ -92,7 +93,6 @@ while (line = file.gets) != nil
         thisFight = Fight.new(line.strip)
         thisFight.fighters = file.gets.strip.split(" vs ")
         firstFlag = 0
-        
     elsif(isOdd?(line))
         thisFight.odds1Add(line.strip)
         thisFight.odds2Add(file.gets.strip)
@@ -112,3 +112,8 @@ end
 fights.each{|fight|
      puts fight.bestBet
 }
+
+
+file = File.new("madeBets.txt", "a")
+file.write(fights[indexBig].bestBet)
+file.close
