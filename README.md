@@ -1,24 +1,3 @@
-# README
+# Betr- Automated MMA sports odds analyser 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application is written in Ruby, hosted on Heroku and automatically aggregates sports betting odds for MMA and then recommends the best bet based on differences in odds between sites. Work in progress.
