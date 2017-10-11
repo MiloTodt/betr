@@ -59,6 +59,9 @@ class Fight
         [margin1(),margin2()].max()
     end
     def bestBet
+        if @odds1.size() < 3
+            return "Not more than three different odds yet!"
+        end
         if noOdds? 
              return "No odds for this fight yet!"
             elsif (margin1 > margin2)
@@ -79,15 +82,21 @@ end
 
 fights = [] #Create an array of BetLine objects, each holding the betting information for one fighter.
 file = File.new("betInfo.txt", "r")
-firstFlag = 0
+thisFight = Fight.new(-1)
+firstFlag = 1
 while (line = file.gets) != nil
-if (isDate?(line)) #dealing with a date, make new fight
-    thisFight = Fight.new(line.strip)
-    thisFight.fighters = file.gets.strip.split(" vs ")
-elsif(isOdd?(line))
-    thisFight.odds1Add(line.strip)
-    thisFight.odds2Add(file.gets.strip)
-end
+    if (isDate?(line)) #dealing with a date, make new fight
+        if(firstFlag != 1)
+            fights << thisFight
+        end
+        thisFight = Fight.new(line.strip)
+        thisFight.fighters = file.gets.strip.split(" vs ")
+        firstFlag = 0
+        
+    elsif(isOdd?(line))
+        thisFight.odds1Add(line.strip)
+        thisFight.odds2Add(file.gets.strip)
+    end
 end
 fights << thisFight
 file.close
@@ -100,6 +109,6 @@ for i in 0...fights.size()
     end
 end
 
-fights.size().times{ |i|
-        puts fights[i].bestMargin
-    }
+fights.each{|fight|
+     puts fight.bestBet
+}
