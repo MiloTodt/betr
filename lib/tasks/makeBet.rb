@@ -29,7 +29,6 @@ class Fight
     def noOdds?
         return @odds1.size == 0
     end
-
     def odds1Average
         total = 0
         @odds1.each{ |line| total += line.to_i}
@@ -54,7 +53,6 @@ class Fight
         if noOdds? then return 0 end
         ((1 -(odds2Average().to_f / @odds2.min().to_f)) * 100).abs()
     end
-    
     def bestMargin
         [margin1(),margin2()].max()
     end
@@ -63,13 +61,12 @@ class Fight
             return
         end
         if noOdds? 
-             return 
-            elsif (margin1 > margin2)
-                return "#{@date}, #{@fighters[0]}, #{@odds1.min}, #{margin1().round(2)}"
-                
-            else
-                return "#{@date}, #{@fighters[1]}, #{@odds2.min}, #{margin2().round(2)}"
-            end
+            return 
+        elsif (margin1 > margin2)
+            return "#{@date}, #{@fighters[0]}, #{@odds1.min}, #{margin1().round(2)}" 
+        else
+            return "#{@date}, #{@fighters[1]}, #{@odds2.min}, #{margin2().round(2)}"
+        end
     end
 end
 
@@ -113,4 +110,7 @@ file = File.new("madeBets.txt", "a")
 file.write(fights[indexBig].bestBet + "\n")
 file.close
 
-makeBet = bet.new()
+file = File.new("madeBets.txt", "a")
+makeBet = Bets.new(file.gets.split(","))
+makeBet.save
+file.close
