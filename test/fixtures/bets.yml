@@ -2,12 +2,12 @@
 
 one:
   date: MyString
-  name: MyString
+  fighter: MyString
   odds: MyString
   margin: MyString
 
 two:
   date: MyString
-  name: MyString
+  fighter: MyString
   odds: MyString
   margin: MyString

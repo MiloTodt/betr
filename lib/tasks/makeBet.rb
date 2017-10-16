@@ -59,17 +59,16 @@ class Fight
         [margin1(),margin2()].max()
     end
     def bestBet
-        if @odds1.size() < 3
+        if (@odds1.size() < 3 or bestMargin() > 50)
             return
-            return "Not more than three different odds yet!"
         end
         if noOdds? 
-             return "No odds for this fight yet!"
+             return 
             elsif (margin1 > margin2)
-                return "#{@date} #{@fighters[0]} #{@odds1.min} #{margin1()}"
+                return "#{@date}, #{@fighters[0]}, #{@odds1.min}, #{margin1().round(2)}"
                 
             else
-                return "#{@date} #{@fighters[1]} #{@odds2.min} #{margin2()}"
+                return "#{@date}, #{@fighters[1]}, #{@odds2.min}, #{margin2().round(2)}"
             end
     end
 end
@@ -113,3 +112,5 @@ end
 file = File.new("madeBets.txt", "a")
 file.write(fights[indexBig].bestBet + "\n")
 file.close
+
+makeBet = bet.new()

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @bet.date %>
+</p>
+
+<p>
+  <strong>Fighter:</strong>
+  <%= @bet.fighter %>
+</p>
+
+<p>
+  <strong>Odds:</strong>
+  <%= @bet.odds %>
+</p>
+
+<p>
+  <strong>Margin:</strong>
+  <%= @bet.margin %>
+</p>
+
+<%= link_to 'Edit', edit_bet_path(@bet) %> |
+<%= link_to 'Back', bets_path %>
