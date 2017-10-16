@@ -34,8 +34,8 @@ Oskar Piechota vs Jonathan Wilson
 Devin Clark vs Jan Blachowicz
 -150
 +130
--141
-+125
+-143
++127
 -150
 +125
 -150
@@ -56,8 +56,8 @@ Jodie Esquibel vs Karolina Kowalkiewicz
 -500
 +350
 -418
-+300
--400
++350
+-450
 +345
 -465
 +340
@@ -80,7 +80,7 @@ Darren Till vs Donald Cerrone
 -160
 +120
 -150
-+135
++140
 -175
 +125
 -155
