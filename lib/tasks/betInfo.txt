@@ -11,10 +11,6 @@ Ramazan Emeev vs Trevor Smith
 2017-10-21
 Brian Kelleher vs Damian Stasiak
 2017-10-21
-Adam Wieczorek vs Dmitrii Smoliakov
-2017-10-21
-Teemu Packalen vs Marcin Held
-2017-10-21
 Oskar Piechota vs Jonathan Wilson
 -185
 +160
@@ -44,12 +40,12 @@ Devin Clark vs Jan Blachowicz
 +125
 -150
 +120
--150
-+120
--150
-+120
--145
+-155
 +125
+-150
++120
+-150
++130
 -150
 +120
 -150
@@ -64,8 +60,8 @@ Jodie Esquibel vs Karolina Kowalkiewicz
 -400
 +345
 -465
-+335
--490
++340
+-505
 +325
 -450
 +349
@@ -82,18 +78,22 @@ Darren Till vs Donald Cerrone
 -147
 +130
 -160
-+108
--138
-+130
--170
++120
+-150
++135
+-175
 +125
 -155
-+128
--148
-+108
--138
-+108
--138
++130
+-150
++120
+-150
++120
+-150
+2017-10-21
+Anthony Hamilton vs Adam Wieczorek
+2017-10-21
+Nasrat Haqparast vs Marcin Held
 2017-10-28
 Derek Brunson vs Lyoto Machida
 2017-10-28

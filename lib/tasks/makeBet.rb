@@ -109,11 +109,7 @@ for i in 0...fights.size()
     end
 end
 
-fights.each{|fight|
-     puts fight.bestBet
-}
-
 
 file = File.new("madeBets.txt", "a")
-file.write(fights[indexBig].bestBet)
+file.write(fights[indexBig].bestBet + "\n")
 file.close
