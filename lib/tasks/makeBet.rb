@@ -41,7 +41,7 @@ class Fight
             total += thisOdd
         }
         total /= @odds1.size()
-        return total - 100 if(total < 0 ) #Corrects for bets that are between -100 and +100
+        return total - 100 if(total < 0) #Corrects for bets that are between -100 and +100
         return total + 100 if(total >= 0)
         return total
     end
@@ -57,7 +57,7 @@ class Fight
             total += thisOdd
         }
         total /= @odds2.size()
-        return total - 100 if(total < 0 ) #Corrects for bets that are between -100 and +100
+        return total - 100 if(total < 0) #Corrects for bets that are between -100 and +100
         return total + 100 if(total >= 0)
         return total
     end
@@ -91,7 +91,7 @@ end
 def isDate?(input) #date lines start with 2017, no other lines start with numbers
     return input[0] == "2"
 end
-def isOdd?(input)
+def isAnOdd?(input) #refers to whether the line is a betting odd, not odd/even
     return (input[0] == "+" or "-")
 end
 
@@ -107,7 +107,7 @@ while (line = file.gets) != nil
         thisFight = Fight.new(line.strip)
         thisFight.fighters = file.gets.strip.split(" vs ")
         firstFlag = 0
-    elsif(isOdd?(line))
+    elsif(isAnOdd?(line))
         thisFight.odds1Add(line.strip)
         thisFight.odds2Add(file.gets.strip)
     end
