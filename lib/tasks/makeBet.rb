@@ -63,11 +63,11 @@ class Fight
     end
     def margin1
         if noOdds?() then return 0 end
-        ((1 -(odds1Average().to_f / @odds1.min().to_f)) * 100).abs()
+        ((1 - (odds1Average().to_f / @odds1.min().to_f)) * 100).abs()
     end
     def margin2
         if noOdds? then return 0 end
-        ((1 -(odds2Average().to_f / @odds2.min().to_f)) * 100).abs()
+        ((1 - (odds2Average().to_f / @odds2.min().to_f)) * 100).abs()
     end
     def bestMargin
        margin = [margin1(),margin2()].max()
