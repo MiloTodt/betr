@@ -31,18 +31,34 @@ class Fight
     end
     def odds1Average
         total = 0
-        @odds1.each{ |line| total += line.to_i}
+        @odds1.each{ |line| 
+            thisOdd = line.to_i
+            if(thisOdd > 0) 
+                thisOdd -= 100
+            elsif(thisOdd < 0)
+                thisOdd +=100
+            end
+            total += thisOdd
+        }
         total /= @odds1.size()
-        return total - 100 if(total < 0 && total > -100) #Corrects for bets that are between -100 and +100
-        return total + 100 if(total >= 0 && total < 100)
+        return total - 100 if(total < 0 ) #Corrects for bets that are between -100 and +100
+        return total + 100 if(total >= 0)
         return total
     end
     def odds2Average
         total = 0
-        @odds2.each{ |line| total += line.to_i}
+        @odds2.each{ |line| 
+            thisOdd = line.to_i
+            if(thisOdd > 0) 
+                thisOdd -= 100
+            elsif(thisOdd < 0)
+                thisOdd +=100
+            end
+            total += thisOdd
+        }
         total /= @odds2.size()
-        return total - 100 if(total < 0 && total > -100) #Corrects for bets that are between -100 and +100
-        return total + 100 if(total >= 0 && total < 100)
+        return total - 100 if(total < 0 ) #Corrects for bets that are between -100 and +100
+        return total + 100 if(total >= 0)
         return total
     end
     def margin1
@@ -54,10 +70,12 @@ class Fight
         ((1 -(odds2Average().to_f / @odds2.min().to_f)) * 100).abs()
     end
     def bestMargin
-        [margin1(),margin2()].max()
+       margin = [margin1(),margin2()].max()
+       if margin >= 50 then return 0 end #Something has gone wrong
+        return margin
     end
     def bestBet
-        if (@odds1.size() < 3 or bestMargin() > 50)
+        if (@odds1.size() < 4 or bestMargin() > 50)
             return
         end
         if noOdds? 
@@ -108,9 +126,4 @@ end
 
 file = File.new("madeBets.txt", "a")
 file.write(fights[indexBig].bestBet + "\n")
-file.close
-
-file = File.new("madeBets.txt", "a")
-makeBet = Bets.new(file.gets.split(","))
-makeBet.save
 file.close

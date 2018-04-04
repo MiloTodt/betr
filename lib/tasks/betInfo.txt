@@ -1,126 +1,190 @@
-2017-10-21
-Josh Emmett vs Felipe Arantes
-2017-10-21
-Aspen Ladd vs Lina Lansberg
-2017-10-21
-Warlley Alves vs Jim Wallhead
-2017-10-21
-Andre Fili vs Artem Lobov
-2017-10-21
-Ramazan Emeev vs Trevor Smith
-2017-10-21
-Brian Kelleher vs Damian Stasiak
-2017-10-21
-Oskar Piechota vs Jonathan Wilson
+2018-04-07
+Khabib Nurmagomedov vs Tony Ferguson
+-240
++220
+-236
++206
+-250
++200
+-240
++195
+-255
++185
+-250
++195
+-240
++205
+-240
++195
+-240
++195
+2018-04-07
+Joanna Jedrzejczyk vs Rose Namajunas
+-135
++125
+-139
++123
+-150
++125
+-145
++115
+-130
++105
+-150
++120
+-135
++115
+-145
++115
+-145
++115
+2018-04-07
+Calvin Kattar vs Renato Moicano
+-150
++130
+-141
++125
+-160
++130
+-150
++121
+-145
++115
+-150
++120
+-140
++120
+-150
++121
+-150
++121
+2018-04-07
+Anthony Pettis vs Michael Chiesa
++115
+-135
++110
+-124
++100
+-125
++106
+-135
++110
+-140
++105
+-135
++105
+-125
++106
+-135
++106
+-135
+2018-04-07
+Paul Felder vs Al Iaquinta
++100
+-120
++101
+-112
++100
+-125
++100
+-130
+-110
+-120
+-105
+-125
+-103
+-117
++100
+-130
++100
+-130
+2018-04-07
+Felice Herrig vs Karolina Kowalkiewicz
++160
 -185
-+160
--181
-+160
--188
++155
+-176
 +163
--200
+-188
++159
+-189
 +160
 -210
-+160
--190
 +155
--185
+-190
++153
+-178
++159
+-189
++159
+-189
+2018-04-07
+Brandon Moreno vs Ray Borg
++235
+-275
++225
+-259
++225
+-275
++215
+-260
++215
+-295
++230
+-300
++225
+-265
++215
+-260
++215
+-260
+2018-04-07
+Chris Gruetzemacher vs Joe Lauzon
++145
+-165
++145
+-164
++138
+-163
++132
+-163
++130
+-165
++135
+-165
++145
+-170
++132
+-163
++132
+-163
+2018-04-07
+Ashlee Evans-Smith vs Bec Rawlings
+2018-04-07
+Artem Lobov vs Alex Caceres
+2018-04-07
+Mairbek Taisumov vs Evan Dunham
+2018-04-07
+Kyle Bochniak vs Zabit Magomedsharipov
+2018-04-07
+Michael Rodriguez vs Devin Clark
+2018-07-08
+Daniel Cormier vs Stipe Miocic
++164
+-174
 +160
--200
-+160
--200
-+160
-2017-10-21
-Devin Clark vs Jan Blachowicz
--150
-+130
--143
-+127
--150
-+125
--150
-+120
--155
-+125
--150
-+120
--150
-+130
--150
-+120
--150
-+120
-2017-10-21
-Jodie Esquibel vs Karolina Kowalkiewicz
-+400
--500
-+350
--418
-+350
--450
-+345
--465
-+340
--505
-+325
--450
-+349
--419
-+345
--465
-+345
--465
-2017-10-21
-Darren Till vs Donald Cerrone
-+130
--150
-+130
--147
-+130
--160
-+120
--150
+-181
++163
+-188
++151
+-181
 +140
 -175
-+125
--155
-+130
--150
-+120
--150
-+120
--150
-2017-10-21
-Anthony Hamilton vs Adam Wieczorek
-2017-10-21
-Nasrat Haqparast vs Marcin Held
-2017-10-28
-Derek Brunson vs Lyoto Machida
-2017-10-28
-Colby Covington vs Demian Maia
-2017-10-28
-Rob Font vs Pedro Munhoz
-2017-10-28
-Jim Miller vs Francisco Trinaldo
-2017-10-28
-Jack Hermansson vs Thiago Santos
-2017-10-28
-Marlon Vera vs John Lineker
-2017-10-28
-Niko Price vs Luan Chagas
-2017-10-28
-Boston Salmon vs Augusto Mendes
-2017-10-28
-Max Griffin vs Elizeu Zaleski dos Santos
-2017-10-28
-Jared Gordon vs Hacran Dias
-2017-10-28
-Jarred Brooks vs Deiveson Figueiredo
-2017-10-28
-Jack Marshman vs Antonio Carlos Junior
-2017-12-31
-Brock Lesnar vs Jon Jones
-+275
--400
-+265
--350
++155
+-190
++165
+-190
++151
+-181
++151
+-181
