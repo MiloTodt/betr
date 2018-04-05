@@ -30,6 +30,7 @@ class Fight
         return @odds1.size == 0
     end
     def odds1Average
+        if noOdds?() then return 0 end              
         total = 0
         @odds1.each{ |line| 
             thisOdd = line.to_i
@@ -46,6 +47,7 @@ class Fight
         return total
     end
     def odds2Average
+        if noOdds?() then return 0 end      
         total = 0
         @odds2.each{ |line| 
             thisOdd = line.to_i
@@ -63,15 +65,14 @@ class Fight
     end
     def margin1
         if noOdds?() then return 0 end
-        ((1 - (odds1Average().to_f / @odds1.min().to_f)) * 100).abs()
+            ((1 - (odds1Average().to_f / @odds1.max().to_f)) * 100).abs()
     end
     def margin2
         if noOdds? then return 0 end
-        ((1 - (odds2Average().to_f / @odds2.min().to_f)) * 100).abs()
+        ((1 - (odds2Average().to_f / @odds2.max().to_f)) * 100).abs()
     end
     def bestMargin
        margin = [margin1(),margin2()].max()
-       if margin >= 50 then return 0 end #Something has gone wrong
         return margin
     end
     def bestBet
