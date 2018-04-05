@@ -81,9 +81,9 @@ class Fight
         if noOdds? 
             return 
         elsif (margin1 > margin2)
-            return "#{@date}, #{@fighters[0]}, #{@odds1.min}, #{margin1().round(2)}" 
+            return "#{@date}, #{@fighters[0]}, #{@odds1.max}, #{margin1().round(2)}" 
         else
-            return "#{@date}, #{@fighters[1]}, #{@odds2.min}, #{margin2().round(2)}"
+            return "#{@date}, #{@fighters[1]}, #{@odds2.max}, #{margin2().round(2)}"
         end
     end
 end
