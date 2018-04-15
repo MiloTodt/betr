@@ -73,15 +73,15 @@ class Fight
     end
     def bestMargin
        margin = [margin1(),margin2()].max()
+       if margin >= 50 then return 0 end #Something has gone wrong
         return margin
     end
     def bestBet
         if (@odds1.size() < 4 or bestMargin() > 50)
             return
         end
-        if noOdds? 
-            return 
-        elsif (margin1 > margin2)
+
+        if (margin1 > margin2)
             if(odds1Average > 0)
                 return "#{@date}, #{@fighters[0]}, #{@odds1.max}, #{margin1().round(2)}" 
             else
