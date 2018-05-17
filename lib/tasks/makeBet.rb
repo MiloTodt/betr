@@ -73,11 +73,11 @@ class Fight
     end
     def bestMargin
        margin = [margin1(),margin2()].max()
-       if margin >= 50 then return 0 end #Something has gone wrong
+       if margin >= 50 then return 0 end #Something has gone wrong, usually an error with the data source pulled from.
         return margin
     end
     def bestBet
-        if (@odds1.size() < 4 or bestMargin() > 50)
+        if (@odds1.size() < 4 or bestMargin() > 50) #Not enough odds to matter.
             return
         end
 

@@ -1,6 +1,27 @@
-2018-04-07, Karolina Kowalkiewicz, -170, 18.3
-2018-04-14, Marvin Vettori, +235, 11.91
-2018-04-14, Justin Gaethje, +125, 9.6
-2018-04-14, Patrick Williams, +387, 11.63
-2018-04-14, Arjan Bhullar, -318, 12.53
-2018-04-14, Arjan Bhullar, -310, 17.41
+2018-04-07, Karolina Kowalkiewicz, -170, 11.3, W
+2018-04-14, Marvin Vettori, +235, 11.91, L
+2018-04-14, Justin Gaethje, +125, 9.6, L
+2018-04-14, Patrick Williams, +387, 11.63, L
+2018-04-14, Arjan Bhullar, -318, 12.53, L
+2018-04-21, Frankie Edgar, -210, 7.39, W
+2018-04-21, Edson Barboza, +125, 7.2, W
+2018-04-21, Thiago Santos, -199, 11.25, L
+2018-04-21, Tony Martin, -208, 18.6, W
+2018-07-07, Daniel Cormier, +160, 6.87
+2018-07-07, Daniel Cormier, +160, 7.5
+2018-05-12, Raquel Pennington, +425, 10.12
+2018-05-12, Warlley Alves, -215, 12.31
+2018-05-12, Mackenzie Dern, -229, 16.07
+2018-05-12, Mackenzie Dern, -229, 17.38
+2018-05-12, Raquel Pennington, +450, 13.56
+2018-05-12, Raquel Pennington, +450, 13.11
+2018-05-12, Raquel Pennington, +475, 16.0
+2018-05-12, Raquel Pennington, +475, 15.16
+2018-05-12, Mackenzie Dern, -223, 13.21
+2018-05-12, Mackenzie Dern, -223, 15.09
+2018-05-12, Mackenzie Dern, -217, 15.44
+2018-05-12, Mackenzie Dern, -217, 15.44
+2018-05-19, Zak Cummings, -137, 10.0
+2018-05-19, Alexa Grasso, +550, 18.55
+2018-05-19, Demian Maia, +500, 18.0
+2018-05-19, Alexa Grasso, +561, 15.86
